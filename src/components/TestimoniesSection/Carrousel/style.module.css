@@ -1,0 +1,48 @@
+.list_item {
+  list-style: none;
+  display: flex;
+}
+
+.carrousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.8rem;
+  min-height: 26.4rem;
+  max-height: 30.2rem;
+}
+
+.radios_wrapper {
+  display: flex;
+  width: fit-content;
+  gap: 0.8rem;
+}
+
+.radio {
+  all: unset;
+  background-color: #e4e4e4;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.radio:focus {
+  outline: 1px solid black;
+  border: none;
+}
+
+.radio:checked {
+  background-color: #69b99d;
+}
+
+.list {
+  display: flex;
+}
+
+@media screen and (min-width: 1000px) {
+  .list {
+    gap: 3.2rem;
+  }
+}
